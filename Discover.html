@@ -1,0 +1,190 @@
+<head>
+    <title>TreePedia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="html" href="./index.html">
+  </head>
+  <style>
+  body {
+  padding-top: 3rem;
+  color: #5a5a5a;
+}
+.nav-link {
+  --spacing: 1em;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: calc(var(--spacing) / 2) var(--spacing);
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.9rem;}
+.nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: var(--spacing);
+  right: var(--spacing);
+  height: 2px;
+  background: currentColor;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out,-webkit-transform 150ms ease-in-out;}
+.nav-link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top py-4">
+      <a class="navbar-brand" href="#">TreePedia</a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse text-center" id="collapsibleNavbar">
+         <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+         <a class="nav-link" href="./index.html">Home</a></li>
+         <li class="nav-item">
+         <a class="nav-link" href="./Discover.html">Discover</a></li>
+         <li class="nav-item">
+         <a class="nav-link" href="#">Facts</a></li>
+         <li class="nav-item">
+         <a class="nav-link" href="#">Why?</a></li>
+         <li class="nav-item">
+         <a class="nav-link" href="#">About</a></li>
+         </ul>
+       </div>
+     </nav> 
+    <main>
+       
+<div class="container mt-5 py-5">
+    <div class="row blog">
+        <div class="col-md-12 col-lg-12">
+            <div id="bCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <a><img src="./air.webp" alt="Image" style="width: 250px;height: 250px;">
+                                    <span class="carousel-caption d-flex"><h2>Air</h2></span></a>
+                              </div>
+                            <div class="col-md-3 col-lg-3">
+                                    <a><img src="./water.jpg" alt="Image" style="width: 250px;height: 250px;">
+                                        <span class="carousel-caption d-flex"><h2>Water</h2></span></a>
+                                </div>
+                                <div class="col-md-3 col-lg-3">
+                                    <a><img src="./bio.jpg" alt="Image" style="width: 250px;height: 250px;">
+                                        <span class="carousel-caption d-flex"><h2>BioDiversity</h2></span></a>
+                                </div>
+                                <div class="col-md-3 col-lg-3">
+                                    <a><img src="./clim.jpg" alt="Image" style="width: 250px;height: 250px;">
+                                        <span class="carousel-caption d-flex"><h2>Climate</h2></span></a>
+                                </div>
+                           </div>
+                    </div>
+                    <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3 col-lg-3">
+                                    <a><img src="./si.png" alt="Image" style="width: 250px;height: 250px;">
+                                       <span class="carousel-caption d-flex "><h2>Social Impact</h2></span></a>
+                                </div>
+                                <div class="col-md-3 col-lg-3">
+                                    <a><img src="./health.jpg" alt="Image" style="width: 250px;height: 250px;">
+                                       <span class="carousel-caption d-flex "><h2>Health</h2></span></a>
+                                </div>
+                                <div class="col-md-3 col-lg-3">
+                                    <a><img src="./food.jpg" alt="Image" style="width: 250px;height: 250px;">
+                                       <span class="carousel-caption d-flex"><h2>Food</h2></span></a>
+                                 </div>
+                                <div class="col-md-3 col-lg-3">
+                                    <a><img src="./plantation.jpg" alt="Image" style="width: 250px;height: 250px;">
+                                       <span class="carousel-caption d-flex"><h2>Plantation</h2></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<div class="container mt-3 py-2 text-center ">
+    <h2 class="text-dark">Did You Know ?</h2>
+    <p><h5>The world is home to over 60,000 different tree species? Trees provide inumerous benefits<br> such as <b>clean air, water, biodiversity, social impact, health and regulate climate</b></h5>.</p>
+</div>
+
+
+
+</main>
+    <footer class="font-small mt-4" style="background-color: rgba(90, 77, 77, 0.1);">
+        <div style="background-color: #4a966a;">
+          <div class="container">     
+           <div class="row py-4 d-flex align-items-center">
+              <div class="col-md-6 text-center text-md-left mb-4 mb-md-0">
+                <h6 class="mb-0" style="color: blanchedalmond;">Get connected with us on social networks!</h6>
+              </div>
+             <div class="col-md-6 text-center text-md-right" >
+               <a class="fb-ic" href="https://www.Facebook.com" >
+                  <i class="fab fa-facebook-f text-white mr-4"  > </i></a>
+                <a class="tw-ic" href="https://www.Twitter.com" >
+                  <i class="fab fa-twitter text-white mr-4"> </i></a>
+                <a class="gplus-ic" href="https://www.Google.com" >
+                  <i class="fab fa-google-plus-g text-white mr-4"> </i></a>
+                <a class="ins-ic" href="https://www.Instagram.com" >
+                  <i class="fab fa-instagram text-white"> </i>  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+         
+        <div class="container text-left py-4">
+          <div class="row mt-4">
+            <div class="col-lg-4 mt-md-0 mt-3 ">
+              <h5 class="text-uppercase">TreePedia</h5>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 90px;"><br>
+              <p style="font-size: 19px;">Trees are vital. As the biggest plants on the planet, they give us oxygen, store carbon, stabilise the soil and give life to the world's wildlife.</p>
+            </div><hr class="clearfix w-100 d-md-none pb-3">
+            
+            <div class="col-lg-2 mt-md-0 mt-3">
+              <h5 class="text-uppercase">Useful Links</h5>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 90px;"><br>
+              <ul class="list-unstyled">
+                <li><a class="text-dark" href="./index.html">Home</a></li>
+                <li><a class="text-dark" href="./Discover.html">Discover</a></li>
+                <li><a class="text-dark" href="#!">Facts</a></li>
+                <li><a class="text-dark" href="#!">Why?</a></li>
+                <li><a class="text-dark" href="#!">About</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 mt-md-0 mt-3">
+              <h5 class="text-uppercase">Contact Us</h5>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 90px;">
+              <br>
+              <i class="fas fa-home mr-1 "></i> <a>    H.O: 121 Main Road,New Colony,<br>3rd Street, Tamilnadu</a><br>
+              <i class="fa fa-envelope mt-3" ></i><a class="text-dark" href="https://www.TreePedia@gmail.com" > treepedia@gmail.com</a>
+            </div>
+            <div class="col-lg-4 mt-md-0 mt-4">
+              <h5 class="text-uppercase">Get Direction</h5>
+              <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 90px;"><br>
+            <div class="map-container" >
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d295787.8910818195!2d80.06423581996359!3d13.076418162366869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1624545987229!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           </div>
+     </div>
+    </div>
+</div>
+        <div class="text-center p-3" style="background-color: rgba(90, 77, 77, 0.234);">
+              © 2021 Copyright:
+              <a class="text-dark" href="#">TreePedia.com</a>
+        </div>   
+</footer>
+</body>
+<script>
+    $('#bCarousel').carousel({interval: 2000});
+</script>
